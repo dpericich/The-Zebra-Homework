@@ -1,0 +1,11 @@
+// Global Resets as well as font-size adjustments
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Global font-size is usually 16px, so I'm setting it to 10px for ease of use with Rem
+html {
+  font-size: 62.5%;
+}
