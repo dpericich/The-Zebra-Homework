@@ -1,13 +1,25 @@
 .features-description {
-  flex: 0 0 50%;
-  margin: 0 3rem;
+  flex: 0 0 auto;
+  padding: 0 2rem;
+  width: 50%;
+  font-style: 100rem;
   &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     border-bottom: 0.5px solid grey;
     padding-bottom: 0.8rem;
     font-size: 1.6rem;
+    font-weight: 400;
   }
 
   &__list {
     font-size: 1.4rem;
   }
+}
+
+ion-icon {
+  padding-right: 0.75rem;
+  font-size: 20px;
 }

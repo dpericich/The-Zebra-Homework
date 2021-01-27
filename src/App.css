@@ -6,6 +6,9 @@ body {
 html {
   font-size: 62.5%; }
 
+.quote-container {
+  width: 50%; }
+
 .button {
   flex-direction: row;
   justify-content: center;
@@ -27,34 +30,51 @@ html {
   justify-content: center;
   align-items: flex-start;
   flex: 0 0 auto;
-  width: 60%;
   padding: 3rem; }
 
 .features-description {
-  flex: 0 0 50%;
-  margin: 0 3rem; }
+  flex: 0 0 auto;
+  padding: 0 2rem;
+  width: 50%;
+  font-style: 100rem; }
   .features-description__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     border-bottom: 0.5px solid grey;
     padding-bottom: 0.8rem;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    font-weight: 400; }
   .features-description__list {
     font-size: 1.4rem; }
 
+ion-icon {
+  padding-right: 0.75rem;
+  font-size: 20px; }
+
 .insurance-description {
-  flex: 0 0 50%;
-  padding: 0 3rem; }
+  flex: 0 0 auto;
+  padding: 0 2rem;
+  width: 50%; }
   .insurance-description__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     border-bottom: 0.5px solid grey;
     font-style: normal;
     padding-bottom: 0.8rem;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    font-weight: 500; }
   .insurance-description__details {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start; }
   .insurance-description__text {
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    padding: 0.5rem 0; }
   .insurance-description__disclaimer {
     font-size: 1.2rem;
     font-style: italic; }

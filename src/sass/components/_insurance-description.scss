@@ -1,11 +1,17 @@
 .insurance-description {
-  flex: 0 0 50%;
-  padding: 0 3rem;
+  flex: 0 0 auto;
+  padding: 0 2rem;
+  width: 50%;
   &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     border-bottom: 0.5px solid grey;
     font-style: normal;
     padding-bottom: 0.8rem;
     font-size: 1.6rem;
+    font-weight: 500;
   }
 
   &__details {
@@ -17,6 +23,7 @@
 
   &__text {
     font-size: 1.4rem;
+    padding: 0.5rem 0;
   }
 
   &__disclaimer {

@@ -15,3 +15,7 @@ The structure of this app is a the index.js file as the entry point, with the Ap
 ## How to use
 
 Clone this repository onto your machine and run "npm install" from the terminal. This will install all dependencies for the project.
+
+## Differences
+
+There were no assets for the icons in the expandable section, so I used the ionicons feature to add these in.

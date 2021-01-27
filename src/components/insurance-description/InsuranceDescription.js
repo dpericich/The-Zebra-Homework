@@ -3,7 +3,9 @@ import React from "react";
 const InsuranceDescription = ({ name, details }) => {
   return (
     <div className="insurance-description">
-      <div className="insurance-description__title">Why {name}?</div>
+      <div className="insurance-description__title">
+        <ion-icon name="book-outline"></ion-icon> Why {name}?
+      </div>
       <div className="insurance-description__details">
         <div className="insurance-description__text">{details}</div>
         <div className="insurance-description__disclaimer">

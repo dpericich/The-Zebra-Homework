@@ -9,16 +9,17 @@ const carrier_cards = priceComparisonData.carrier_cards;
 function App() {
   return (
     <div className="App">
-      {carrier_cards.map((carrierOption) => (
-        <div key={carrierOption.name}>
-          <ExpandableContainer
-            features={carrierOption.features_html}
-            name={carrierOption.name}
-            details={carrierOption.detail_body}
-          />
-        </div>
-      ))}
-      <Button text="Hello" type={0} />
+      <div className="quote-container">
+        {carrier_cards.map((carrierOption) => (
+          <div className="quote-container__quote" key={carrierOption.name}>
+            <ExpandableContainer
+              features={carrierOption.features_html}
+              name={carrierOption.name}
+              details={carrierOption.detail_body}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
