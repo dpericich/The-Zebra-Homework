@@ -6,7 +6,7 @@ Translate mockup and mock API call provided with assignment into working price c
 
 ## Technologies used
 
-This app was bootstrapped using CRA (Create React App) and the npm node-sass package to utilize SCSS for component styling. For testing, I downloaded Enzyme and am using Enzyme with Jest to do unit testing for certain components.
+This app was bootstrapped using CRA (Create React App) and the npm node-sass package to utilize SCSS for component styling with BEM naming conventions. For testing, I downloaded Enzyme and am using Enzyme with Jest to do unit testing for certain components.
 
 ## File Structure
 

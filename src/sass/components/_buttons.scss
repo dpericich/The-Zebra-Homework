@@ -1,3 +1,25 @@
-body {
-  color: red;
+.button {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5rem;
+  width: auto;
+
+  &__0,
+  &__1 {
+    background: $btn-yellow;
+  }
+
+  &__3 {
+    background: $btn-blue;
+  }
+
+  &__logo {
+  }
+
+  &__text {
+    font-size: 3rem;
+    color: $white-text-1;
+  }
 }

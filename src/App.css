@@ -6,5 +6,17 @@ body {
 html {
   font-size: 62.5%; }
 
-body {
-  color: red; }
+.button {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5rem;
+  width: auto; }
+  .button__0, .button__1 {
+    background: linear-gradient(350deg, #f87000 40%, #f8ae00 85%); }
+  .button__3 {
+    background: linear-gradient(350deg, #6169f4 40%, #1cbeec 85%); }
+  .button__text {
+    font-size: 3rem;
+    color: #fff; }
