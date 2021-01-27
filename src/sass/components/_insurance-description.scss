@@ -1,0 +1,26 @@
+.insurance-description {
+  flex: 0 0 50%;
+  padding: 0 3rem;
+  &__title {
+    border-bottom: 0.5px solid grey;
+    font-style: normal;
+    padding-bottom: 0.8rem;
+    font-size: 1.6rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+  }
+
+  &__disclaimer {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+}

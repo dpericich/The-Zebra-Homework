@@ -1,0 +1,13 @@
+.features-description {
+  flex: 0 0 50%;
+  margin: 0 3rem;
+  &__title {
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 0.8rem;
+    font-size: 1.6rem;
+  }
+
+  &__list {
+    font-size: 1.4rem;
+  }
+}

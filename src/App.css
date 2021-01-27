@@ -20,3 +20,41 @@ html {
   .button__text {
     font-size: 3rem;
     color: #fff; }
+
+.expandable-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 0 0 auto;
+  width: 60%;
+  padding: 3rem; }
+
+.features-description {
+  flex: 0 0 50%;
+  margin: 0 3rem; }
+  .features-description__title {
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 0.8rem;
+    font-size: 1.6rem; }
+  .features-description__list {
+    font-size: 1.4rem; }
+
+.insurance-description {
+  flex: 0 0 50%;
+  padding: 0 3rem; }
+  .insurance-description__title {
+    border-bottom: 0.5px solid grey;
+    font-style: normal;
+    padding-bottom: 0.8rem;
+    font-size: 1.6rem; }
+  .insurance-description__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; }
+  .insurance-description__text {
+    font-size: 1.4rem; }
+  .insurance-description__disclaimer {
+    font-size: 1.2rem;
+    font-style: italic; }

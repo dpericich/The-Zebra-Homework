@@ -1,16 +1,14 @@
 import React from "react";
 
-const InsuranceDescription = () => {
+const InsuranceDescription = ({ name, details }) => {
   return (
     <div className="insurance-description">
-      <h2 className="insurance-description__title">Why Liberty Mutual</h2>
+      <div className="insurance-description__title">Why {name}?</div>
       <div className="insurance-description__details">
-        <div className="insurance-description__text">
-          Some details about the insurance
-        </div>
+        <div className="insurance-description__text">{details}</div>
         <div className="insurance-description__disclaimer">
-          Price shown is a soft quote based on the Liberty Mutual insurance
-          product in your state
+          Price shown is a soft quote based on the {name} insurance product in
+          your state.
         </div>
       </div>
     </div>
