@@ -1,7 +1,6 @@
 import React from "react";
 
 const FeaturesDescription = ({ features }) => {
-  console.log(features);
   return (
     <div className="features-description">
       <div className="features-description__title">

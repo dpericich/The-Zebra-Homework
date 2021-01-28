@@ -1,0 +1,27 @@
+.name-container-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 3rem;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+
+  &__data {
+  }
+
+  &__ratings {
+    margin-bottom: 1rem;
+  }
+
+  &__star {
+    width: 1.6rem;
+  }
+
+  &__features {
+  }
+}

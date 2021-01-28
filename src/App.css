@@ -8,6 +8,35 @@ html {
 
 .quote-container {
   width: 50%; }
+  .quote-container__quote {
+    border: 1px solid #959595;
+    margin: 1.5rem 0;
+    border-radius: 4px; }
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 2rem 2rem; }
+
+.carrier-image {
+  width: 7.5rem; }
+
+.name-container-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 3rem; }
+  .name-container-display__title {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem; }
+  .name-container-display__ratings {
+    margin-bottom: 1rem; }
+  .name-container-display__star {
+    width: 1.6rem; }
 
 .button {
   flex-direction: row;
