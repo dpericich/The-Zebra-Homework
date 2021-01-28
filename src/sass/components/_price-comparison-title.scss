@@ -1,0 +1,34 @@
+.price-comparison-title {
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding-top: 1rem;
+  }
+
+  &__text {
+    font-size: 1.7rem;
+    &--bold {
+      font-weight: 700;
+    }
+  }
+
+  &__filter {
+    // margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &--text {
+      font-size: 1.7rem;
+      padding: 1rem;
+    }
+
+    &--dropdown {
+      padding: 0.5rem 2rem;
+      font-size: 1.7rem;
+      border-radius: 3px;
+    }
+  }
+}

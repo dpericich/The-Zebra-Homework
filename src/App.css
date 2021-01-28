@@ -107,3 +107,35 @@ ion-icon {
   .insurance-description__disclaimer {
     font-size: 1.2rem;
     font-style: italic; }
+
+.price-comparison-title__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding-top: 1rem; }
+
+.price-comparison-title__text {
+  font-size: 1.7rem; }
+  .price-comparison-title__text--bold {
+    font-weight: 700; }
+
+.price-comparison-title__filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .price-comparison-title__filter--text {
+    font-size: 1.7rem;
+    padding: 1rem; }
+  .price-comparison-title__filter--dropdown {
+    padding: 0.5rem 2rem;
+    font-size: 1.7rem;
+    border-radius: 3px; }
+
+.price-comparison {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #959595; }
