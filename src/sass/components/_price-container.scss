@@ -1,0 +1,23 @@
+.price-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+
+  &__price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    &--verified {
+      color: #1843b9;
+      font-weight: 700;
+      font-size: 1.3rem;
+      padding: 0.5rem;
+    }
+
+    &--rate {
+      font-size: 3rem;
+    }
+  }
+}

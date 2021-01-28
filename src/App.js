@@ -4,6 +4,7 @@ import priceComparisonData from "./carrier_cards.json";
 import Button from "./components/button/Button";
 import ExpandableContainer from "./components/expandable-container/ExpandableContainer";
 import NameContainer from "./components/name-container/NameContainer";
+import PriceContainer from "./components/price-container/PriceContainer";
 import PriceComparisonTitle from "./components/price-comparison-title/PriceComparisonTitle";
 
 // Store the Carrier in it's own variable for easier manipulation
@@ -45,11 +46,18 @@ class App extends React.Component {
         <div className="quote-container">
           {this.state.quotes.map((carrierOption) => (
             <div className="quote-container__quote" key={carrierOption.name}>
-              <NameContainer
-                name={carrierOption.name}
-                features={carrierOption.features}
-                stars={carrierOption.stars}
-              />
+              <div className="quote-container__quote--visible">
+                <NameContainer
+                  name={carrierOption.name}
+                  features={carrierOption.features}
+                  stars={carrierOption.stars}
+                />
+                <PriceContainer
+                  tag={carrierOption.tag}
+                  rate={carrierOption.rate}
+                  type={carrierOption.type}
+                />
+              </div>
               <ExpandableContainer
                 features={carrierOption.features_html}
                 name={carrierOption.name}

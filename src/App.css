@@ -12,6 +12,11 @@ html {
     border: 1px solid #959595;
     margin: 1.5rem 0;
     border-radius: 4px; }
+    .quote-container__quote--visible {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
 
 .name-container {
   display: flex;
@@ -114,7 +119,8 @@ ion-icon {
   justify-content: space-between;
   align-items: center;
   width: 50%;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  margin-bottom: -1.5rem; }
 
 .price-comparison-title__text {
   font-size: 1.7rem; }
@@ -124,7 +130,8 @@ ion-icon {
 .price-comparison-title__filter {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  background: linear-gradient(to right, white, #e7e7e7); }
   .price-comparison-title__filter--text {
     font-size: 1.7rem;
     padding: 1rem; }
@@ -132,6 +139,36 @@ ion-icon {
     padding: 0.5rem 2rem;
     font-size: 1.7rem;
     border-radius: 3px; }
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem; }
+  .price-container__price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; }
+    .price-container__price--verified {
+      color: #1843b9;
+      font-weight: 700;
+      font-size: 1.3rem;
+      padding: 0.5rem; }
+    .price-container__price--rate {
+      font-size: 3rem; }
+
+.rate {
+  display: flex;
+  align-items: center; }
+  .rate__sign {
+    color: black;
+    font-size: 2rem; }
+  .rate__rate {
+    font-size: 3rem;
+    padding-right: 0.5rem;
+    color: black; }
+  .rate__month {
+    font-size: 1.5rem; }
 
 .price-comparison {
   display: flex;
