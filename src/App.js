@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 import priceComparisonData from "./carrier_cards.json";
-import Button from "./components/button/Button";
 import ExpandableContainer from "./components/expandable-container/ExpandableContainer";
 import NameContainer from "./components/name-container/NameContainer";
 import PriceContainer from "./components/price-container/PriceContainer";
 import PriceComparisonTitle from "./components/price-comparison-title/PriceComparisonTitle";
+import ChevronDown from "./assets/IconChevronDown.png";
 
 // Store the Carrier in it's own variable for easier manipulation
 const carrier_cards = priceComparisonData.carrier_cards;
