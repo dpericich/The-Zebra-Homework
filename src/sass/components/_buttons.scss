@@ -1,25 +1,45 @@
 .button {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   border-radius: 5rem;
-  width: auto;
+  width: 15rem;
 
-  &__0,
-  &__1 {
+  &:active {
+    transform: translateY(2px);
+  }
+
+  &__blue {
     background: $btn-yellow;
   }
 
-  &__3 {
+  &__orange {
     background: $btn-blue;
   }
 
   &__logo {
+    color: white;
+    width: 1.7rem;
+    height: 1.9rem;
+    padding-right: 1rem;
   }
 
   &__text {
-    font-size: 3rem;
-    color: $white-text-1;
+    font-size: 2rem;
+    color: white;
+  }
+
+  &__link,
+  &__link:visited,
+  &__link:link {
+    text-decoration: none;
+    color: $gray-text-1;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
   }
 }

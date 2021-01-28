@@ -56,6 +56,8 @@ class App extends React.Component {
                   tag={carrierOption.tag}
                   rate={carrierOption.rate}
                   type={carrierOption.type}
+                  actionText={carrierOption.action.link_text}
+                  actionLink={carrierOption.action.link}
                 />
               </div>
               <ExpandableContainer

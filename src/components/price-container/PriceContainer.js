@@ -2,7 +2,7 @@ import React from "react";
 import Rate from "../rate/Rate";
 import Button from "../button/Button";
 
-const PriceContainer = ({ tag, rate, type }) => {
+const PriceContainer = ({ tag, rate, type, actionText, actionLink }) => {
   return (
     <div className="price-container">
       <div className="price-container__price">
@@ -11,7 +11,7 @@ const PriceContainer = ({ tag, rate, type }) => {
           {rate ? <Rate rate={rate} /> : null}
         </div>
       </div>
-      <Button />
+      <Button type={type} text={actionText} link={actionLink} />
     </div>
   );
 };

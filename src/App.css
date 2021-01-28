@@ -44,19 +44,33 @@ html {
     width: 1.6rem; }
 
 .button {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   border-radius: 5rem;
-  width: auto; }
-  .button__0, .button__1 {
+  width: 15rem; }
+  .button:active {
+    transform: translateY(2px); }
+  .button__blue {
     background: linear-gradient(350deg, #f87000 40%, #f8ae00 85%); }
-  .button__3 {
+  .button__orange {
     background: linear-gradient(350deg, #6169f4 40%, #1cbeec 85%); }
+  .button__logo {
+    color: white;
+    width: 1.7rem;
+    height: 1.9rem;
+    padding-right: 1rem; }
   .button__text {
-    font-size: 3rem;
-    color: #fff; }
+    font-size: 2rem;
+    color: white; }
+  .button__link, .button__link:visited, .button__link:link {
+    text-decoration: none;
+    color: #959595; }
+  .button__link {
+    display: flex;
+    align-items: center; }
 
 .expandable-container {
   display: flex;
@@ -143,12 +157,15 @@ ion-icon {
 .price-container {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   padding: 0 2rem; }
   .price-container__price {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center; }
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem; }
     .price-container__price--verified {
       color: #1843b9;
       font-weight: 700;
