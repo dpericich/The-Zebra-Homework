@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InsuranceDescription /> it renders correctly with name and description props passed in 1`] = `
+<div
+  className="insurance-description"
+>
+  <div
+    className="insurance-description__title"
+  >
+    <ion-icon
+      name="book-outline"
+    />
+     Why 
+    Fidelity
+    ?
+  </div>
+  <div
+    className="insurance-description__details"
+  >
+    <div
+      className="insurance-description__text"
+    />
+    <div
+      className="insurance-description__disclaimer"
+    >
+      Price shown is a soft quote based on the 
+      Fidelity
+       insurance product in your state.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<InsuranceDescription /> it renders without issue 1`] = `
+<div
+  className="insurance-description"
+>
+  <div
+    className="insurance-description__title"
+  >
+    <ion-icon
+      name="book-outline"
+    />
+     Why 
+    ?
+  </div>
+  <div
+    className="insurance-description__details"
+  >
+    <div
+      className="insurance-description__text"
+    />
+    <div
+      className="insurance-description__disclaimer"
+    >
+      Price shown is a soft quote based on the 
+       insurance product in your state.
+    </div>
+  </div>
+</div>
+`;

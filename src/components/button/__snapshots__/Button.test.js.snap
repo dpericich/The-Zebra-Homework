@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> it renders correctly with type 3 1`] = `
+<div
+  className="button button__orange"
+>
+  <a
+    className="button__link"
+  >
+    <img
+      alt="quote button"
+      className="button__logo"
+      src="IconBoltWhite.png"
+    />
+    <div
+      className="button__text"
+    >
+      Buy Now
+    </div>
+  </a>
+</div>
+`;
+
+exports[`<Button /> it renders correctly with type of 1 1`] = `
+<div
+  className="button button__blue"
+>
+  <a
+    className="button__link"
+  >
+    <img
+      alt="quote button"
+      className="button__logo"
+      src="IconArrowDown.png"
+    />
+    <div
+      className="button__text"
+    />
+  </a>
+</div>
+`;
+
+exports[`<Button /> it renders correctly with type of 2 1`] = `""`;
+
+exports[`<Button /> it renders without issue 1`] = `
+<div
+  className="button button__"
+>
+  <a
+    className="button__link"
+  >
+    <img
+      alt="quote button"
+      className="button__logo"
+    />
+    <div
+      className="button__text"
+    />
+  </a>
+</div>
+`;
