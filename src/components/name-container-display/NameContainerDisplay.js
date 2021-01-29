@@ -11,7 +11,6 @@ import {
 const NameContainerDisplay = ({ name, stars, features }) => {
   const ratings = calculateRatings(stars, goldStar, whiteStar);
   const stuff = displayFeatures(features);
-  console.log(stuff);
 
   return (
     <div className="name-container-display">

@@ -5,7 +5,6 @@ import ExpandableContainer from "./components/expandable-container/ExpandableCon
 import NameContainer from "./components/name-container/NameContainer";
 import PriceContainer from "./components/price-container/PriceContainer";
 import PriceComparisonTitle from "./components/price-comparison-title/PriceComparisonTitle";
-import ChevronDown from "./assets/IconChevronDown.png";
 
 // Store the Carrier in it's own variable for easier manipulation
 const carrier_cards = priceComparisonData.carrier_cards;
@@ -14,6 +13,7 @@ class App extends React.Component {
   state = { quotes: carrier_cards };
 
   // Based off of dropdown selection, sort items
+  // Sorting criteria are Alphabetical, Price (INC) and Rating (DEC)
   sortResults = (e) => {
     console.log(e.target.value);
     if (e.target.value === "Price") {

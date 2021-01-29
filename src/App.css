@@ -38,10 +38,16 @@ html {
     font-size: 2rem;
     font-weight: 600;
     padding-bottom: 1rem; }
+  .name-container-display__data {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
   .name-container-display__ratings {
-    margin-bottom: 1rem; }
+    padding-right: 1rem; }
   .name-container-display__star {
     width: 1.6rem; }
+  .name-container-display__feature {
+    width: 2.5rem; }
 
 .button {
   display: flex;

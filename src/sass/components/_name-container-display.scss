@@ -12,16 +12,20 @@
   }
 
   &__data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   &__ratings {
-    margin-bottom: 1rem;
+    padding-right: 1rem;
   }
 
   &__star {
     width: 1.6rem;
   }
 
-  &__features {
+  &__feature {
+    width: 2.5rem;
   }
 }
